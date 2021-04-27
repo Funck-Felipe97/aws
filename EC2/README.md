@@ -13,6 +13,10 @@
 * Adicionar tags;
 * Adicionar regras de segurança em Configure Security Group (Ex: Habilitar ssh, http, requisições de qualquer ip ou um ip especifico);
 
+##### Acessando uma instãncia EC2 por ssh 
+
+* ssh -i "ServidorWEB.pem" ubuntu@ec2-18-230-17-187.sa-east-1.compute.amazonaws.com
+
 ###### Elastic Block Store (EBS)
 
 * É um volume de armazenamento para uma instância EC2, ou seja, algo como o disco rígido da máquina virtual;
